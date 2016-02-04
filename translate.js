@@ -1,4 +1,7 @@
 $(document).ready(function() {
 	alert('hello');
-	$('#article-body article').children().css('background','red');
+	$('.translate').click(function() {
+		$('#article-body article').children().toggle();
+		console.log('This better work');
+	});
 });
