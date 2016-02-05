@@ -5,12 +5,12 @@ $(document).ready(function() {
 		);
 	// var OG_headline = document.getElementsByClassName('headline-kicker').text();
 	$('.translate').click(function() {
-		$('.headline-kicker').next('h1').toggleClass('.translated');
-		if ($('.headline-kicker').hasClass('translated')) {
-			$(this).html('Zika história em Português');
-		} else {
-			$(this).html(OG_headline);
-		}
+		// $('.headline-kicker').next('h1').toggleClass('.translated');
+		// if ($('.headline-kicker').hasClass('translated')) {
+		// 	$(this).html('Zika história em Português');
+		// } else {
+		// 	$(this).html(OG_headline);
+		// }
 		$('#article-body article p').toggle();
 		$('.flag-icon').toggle();
 		$('.translate-button').toggle();
