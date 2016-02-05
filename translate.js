@@ -7,9 +7,9 @@ $(document).ready(function() {
 	$('.translate').click(function() {
 		$(headline).toggleClass('.translated');
 		if ($(headline).hasClass('translated')) {
-			$(this).text('Zika história em Português');
+			$(this).innerText('Zika história em Português');
 		} else {
-			$(this).text('Zika article in English');
+			$(this).innerText('Zika article in English');
 		}
 		$('#article-body article p').toggle();
 		$('.flag-icon').toggle();
