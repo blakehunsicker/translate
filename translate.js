@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('head').append('<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/lipis/flag-icon-css/master/css/flag-icon.min.css">');
-	var OG_headline = document.getElementsByClassName('headline-kicker').next('h1').innerHTML;
+	var OG_headline = $('.headline-kicker').next('h1').innerHTML;
 	$('.translate').click(function() {
 		// $(this).text('Read in English');
 		$('.headline-kicker').next('h1').toggleClass('.translated');
