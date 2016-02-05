@@ -1,5 +1,8 @@
 $(document).ready(function() {
-	$('head').append('<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/lipis/flag-icon-css/master/css/flag-icon.min.css">');
+	$('head').append(
+		'<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/lipis/flag-icon-css/master/css/flag-icon.min.css">',
+		'<link rel="stylesheet" type="text/css" href="https://rawgit.com/blakehunsicker/translate/master/translate.css">'
+		);
 	var OG_headline = document.getElementsByClassName('headline-kicker').text();
 	console.log(OG_headline);
 	$('.translate').click(function() {
