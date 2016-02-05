@@ -3,11 +3,8 @@ $(document).ready(function() {
 		'<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/lipis/flag-icon-css/master/css/flag-icon.min.css">',
 		'<link rel="stylesheet" type="text/css" href="https://rawgit.com/blakehunsicker/translate/master/translate.css">'
 		);
-	var OG_headline = document.getElementsByClassName('headline-kicker').text();
-	console.log(OG_headline);
+	// var OG_headline = document.getElementsByClassName('headline-kicker').text();
 	$('.translate').click(function() {
-		console.log('original headline is '+ OG_headline);
-		// $(this).text('Read in English');
 		$('.headline-kicker').next('h1').toggleClass('.translated');
 		if ($('.headline-kicker').hasClass('translated')) {
 			$(this).html('Zika história em Português');
