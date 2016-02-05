@@ -3,14 +3,14 @@ $(document).ready(function() {
 		'<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/lipis/flag-icon-css/master/css/flag-icon.min.css">',
 		'<link rel="stylesheet" type="text/css" href="https://rawgit.com/blakehunsicker/translate/master/translate.css">'
 		);
-	// var OG_headline = document.getElementsByClassName('headline-kicker').text();
+	var headline = $('.headline-kicker').next('h1');
 	$('.translate').click(function() {
-		// $('.headline-kicker').next('h1').toggleClass('.translated');
-		// if ($('.headline-kicker').hasClass('translated')) {
-		// 	$(this).html('Zika história em Português');
-		// } else {
-		// 	$(this).html(OG_headline);
-		// }
+		$(headline).toggleClass('.translated');
+		if ($(headline).hasClass('translated')) {
+			$(this).text('Zika história em Português');
+		} else {
+			$(this).text('Zika article in English');
+		}
 		$('#article-body article p').toggle();
 		$('.flag-icon').toggle();
 		$('.translate-button').toggle();
