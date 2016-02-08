@@ -19,14 +19,25 @@
 	list-style-type:none;
 }*/
 
+.lang-text {
+	-webkit-animation: flag-down 2s infinite;
+	-webkit-animation-direction: alterante;
+	opacity: 0;
+}
+
 .flag-icon {
 	-webkit-animation: flag-down 2s infinite;
 	-webkit-animation-direction: alterante;
 }
 
-@-webkit-keyframes flag-down {
-	0%,10% {-webkit-transform:translateY(0px);}
-	90%,100%{-webkit-transform:translateY(25px);}
+@-webkit-keyframes lang-in {
+	0%,10% {opacity:0;}
+	90%,100%{opacity:1;}
+}
+
+@-webkit-keyframes flag-out {
+	0%,10% {opacity:1;}
+	90%,100%{opacity:0;}
     /*from {top: 0px;}
     to {top: 50px;}*/
 }
