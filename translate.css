@@ -20,13 +20,13 @@
 }*/
 
 .lang-text {
-	-webkit-animation: flag-down 2s infinite;
+	-webkit-animation: lang-in 2s infinite;
 	-webkit-animation-direction: alterante;
 	opacity: 0;
 }
 
 .flag-icon {
-	-webkit-animation: flag-down 2s infinite;
+	-webkit-animation: flag-out 2s infinite;
 	-webkit-animation-direction: alterante;
 }
 
