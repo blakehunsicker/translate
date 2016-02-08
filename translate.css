@@ -26,8 +26,8 @@
 }
 
 @-webkit-keyframes flag-down {
-	0%,10% {-webkit-transform:translateY(0);}
-	90%,100%{-webkit-transform:translateY(-50);}
+	0%,10% {-webkit-transform:translateY(0px);}
+	90%,100%{-webkit-transform:translateY(-50px);}
     /*from {top: 0px;}
     to {top: 50px;}*/
 }
