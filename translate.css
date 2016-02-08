@@ -30,9 +30,8 @@
 }
 
 .flag-icon-ve {
-	-webkit-animation: venezuela-out 5s infinite;
+	-webkit-animation: venezuela-in 5s infinite;
 	-webkit-animation-direction: alternate;
-	opcity: 1;
 }
 
 @-webkit-keyframes lang-out {
