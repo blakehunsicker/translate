@@ -1,6 +1,9 @@
-.translate{
+/*.translate{
 	padding-left:10px!important;
 	padding-right:10px!important;
+}
+.translate:hover{
+  background: #F5F5F5;
 }
 #translate-dropdown-menu{
 	display:none;
@@ -14,4 +17,15 @@
 }
 #translate-dropdown-menu>ul li {
 	list-style-type:none;
+}*/
+
+.flag-icon {
+	-webkit-animation: flag-down 1s infinite;
+	-webkit-animation-direction: alterante;
+	-webkit-animation-delay: 2s;
+}
+
+@-webkit-keyframes flag-down {
+    from {top: 0px;}
+    to {top: 50px;}
 }
