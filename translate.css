@@ -20,14 +20,13 @@
 }*/
 
 .flag-icon {
-	-webkit-animation: flag-down 1s infinite;
+	-webkit-animation: flag-down 2s infinite;
 	-webkit-animation-direction: alterante;
-	-webkit-animation-delay: 2s;
 }
 
 @-webkit-keyframes flag-down {
 	0%,10% {-webkit-transform:translateY(0px);}
-	90%,100%{-webkit-transform:translateY(-50px);}
+	90%,100%{-webkit-transform:translateY(25px);}
     /*from {top: 0px;}
     to {top: 50px;}*/
 }
