@@ -18,18 +18,18 @@
 #translate-dropdown-menu>ul li {
 	list-style-type:none;
 }*/
-.fa-language {
+.lang {
 	color:#2e6d9d;
 	-webkit-animation: lang-out 8s infinite;
 	-webkit-animation-direction: alternate;
 }
-.flag-icon-br {
+.br {
 	-webkit-animation: brazil-in 8s infinite;
 	-webkit-animation-direction: alternate;
 	opacity: 0;
 }
 
-.flag-icon-ve {
+.ve {
 	-webkit-animation: venezuela-in 8s infinite;
 	-webkit-animation-direction: alternate;
 	opacity: 0;
