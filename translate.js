@@ -5,14 +5,14 @@ $(document).ready(function() {
 		);
 	var headline = $('.headline-kicker').next('h1');
 	$('.translate').click(function() {
-		$(headline).toggleClass('.translated');
-		if ($(headline).hasClass('translated')) {
-			$(headline).text('Zika história em Português');
-		} else {
-			$(headline).text('Zika article in English');
-		}
-		$('#article-body article p').toggle();
-		$('.flag-icon').toggle();
-		$('.translate-button').toggle();
+		$('.translate-options').toggle();
+		// if ($(headline).hasClass('translated')) {
+		// 	$(headline).text('Zika história em Português');
+		// } else {
+		// 	$(headline).text('Zika article in English');
+		// }
+		// $('#article-body article p').toggle();
+		// $('.flag-icon').toggle();
+		// $('.translate-button').toggle();
 	});
 });
