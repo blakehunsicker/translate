@@ -20,14 +20,14 @@
 }*/
 
 .lang-text {
-	-webkit-animation: lang-in 2s infinite;
-	-webkit-animation-direction: alterante;
+	-webkit-animation: lang-in 5s infinite;
+	-webkit-animation-direction: alternate;
 	opacity: 0;
 }
 
 .flag-icon {
-	-webkit-animation: flag-out 2s infinite;
-	-webkit-animation-direction: alterante;
+	-webkit-animation: flag-out 5s infinite;
+	-webkit-animation-direction: alternate;
 }
 
 @-webkit-keyframes lang-in {
@@ -36,8 +36,9 @@
 }
 
 @-webkit-keyframes flag-out {
-	0%,10% {opacity:1;}
-	90%,100%{opacity:0;}
-    /*from {top: 0px;}
-    to {top: 50px;}*/
+	0% {opacity:1;}
+	10% {opacity:0;}
+	/*90%
+	100%{opacity:0;}*/
+    
 }
