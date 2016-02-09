@@ -1,4 +1,4 @@
-/*.translate{
+.translate{
 	padding-left:10px!important;
 	padding-right:10px!important;
 }
@@ -17,7 +17,7 @@
 }
 #translate-dropdown-menu>ul li {
 	list-style-type:none;
-}*/
+}
 .lang {
 	color:#2e6d9d;
 	-webkit-animation: lang-out 8s infinite;
