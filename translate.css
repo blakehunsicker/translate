@@ -41,14 +41,14 @@
 }
 
 @-webkit-keyframes brazil-in {
-	0%,30% {opacity:0;}
-	40%,70% {opacity:1;}
-	80%,100% {opacity:0;}
+	0%,30% {-webkit-transform:translateY(-50px);}
+	40%,70% {-webkit-transform:translateY(0px);}
+	80%,100% {-webkit-transform:translateY(50px);}
 }
 
 @-webkit-keyframes venezuela-in {
-	0%,70% {opacity:0;}
-	80%,100% {opacity:1;}
+	0%,70% {-webkit-transform:translateY(-50px}
+	80%,100% {-webkit-transform:translateY(0px);}
 }
 
 /*@-webkit-keyframes lang-out {
