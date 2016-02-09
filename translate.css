@@ -36,8 +36,8 @@
 }
 
 @-webkit-keyframes lang-out {
-	0%,30% {translateY:0;}
-	40%,100% {translateY:50;}   
+	0%,30% {translateY:0px;}
+	40%,100% {translateY:50px;}   
 }
 
 @-webkit-keyframes brazil-in {
