@@ -26,14 +26,12 @@
 .br {
 	-webkit-animation: brazil-in 8s infinite;
 	-webkit-animation-direction: alternate;
-/*	opacity: 0;
-*/}
+}
 
 .ve {
 	-webkit-animation: venezuela-in 8s infinite;
 	-webkit-animation-direction: alternate;
-/*	opacity: 0;
-*/}
+}
 
 @-webkit-keyframes lang-out {
 	0%,30% {-webkit-transform:translateY(0px);}
